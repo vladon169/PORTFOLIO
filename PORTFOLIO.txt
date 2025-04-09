@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Портфолио — Влад</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <h1>Привет! Я Влад</h1>
+    <p>Создаю сайты, делаю дизайн, перевожу тексты. Работаю как фрилансер</p>
+    <a href="https://t.me/vladfreelancerr" class="btn" target="_blank">Связаться со мной</a>
+  </header>
+
+  <section>
+    <h2>Услуги</h2>
+    <ul>
+      <li>Создание лендингов и одностраничных сайтов</li>
+      <li>Дизайн сайтов в Canva</li>
+      <li>HTML/CSS верстка</li>
+      <li>Копирайтинг и переводы</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Мои работы</h2>
+    <div class="projects">
+      <div class="project">
+        <img src="images/manicure1.jpg" alt="Сайт маникюра" />
+        <h3>Сайт маникюра "Катерина"</h3>
+        <p>Простой и стильный сайт мастера маникюра из Нойбранденбурга.</p>
+        <a href="https://vladon169.github.io/manicurewebsite/" class="btn" target="_blank">Посмотреть</a>
+      </div>
+      <div class="project">
+        <img src="images/coffee1.jpg" alt="Сайт кофейни" />
+        <h3>Сайт кофейни "MOOD COFFEE"</h3>
+        <p>Одностраничный сайт с меню, галереей и контактами. Современно и стильно.</p>
+        <a href="https://yourcoffeesite.github.io" class="btn" target="_blank">Посмотреть</a>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>Связь: <a href="https://t.me/vladfreelancerr" target="_blank">@vladfreelancerr</a></p>
+  </footer>
+
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Услуги — Влад</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <h1>Мои Услуги</h1>
+  </header>
+
+  <section>
+    <h2>Я предлагаю следующие услуги:</h2>
+    <ul>
+      <li>Создание лендингов и одностраничных сайтов</li>
+      <li>Дизайн сайтов в Canva</li>
+      <li>HTML/CSS верстка</li>
+      <li>Копирайтинг и переводы</li>
+    </ul>
+  </section>
+
+  <footer>
+    <p>Связь: <a href="https://t.me/vladfreelancerr" target="_blank">@vladfreelancerr</a></p>
+  </footer>
+
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Мои Работы — Влад</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <h1>Мои Работы</h1>
+  </header>
+
+  <section>
+    <h2>Вот мои проекты:</h2>
+    <div class="projects">
+      <div class="project">
+        <img src="images/manicure1.jpg" alt="Сайт маникюра" />
+        <h3>Сайт маникюра "Катерина"</h3>
+        <a href="https://vladon169.github.io/manicurewebsite/" class="btn" target="_blank">Посмотреть</a>
+      </div>
+      <div class="project">
+        <img src="images/coffee1.jpg" alt="Сайт кофейни" />
+        <h3>Сайт кофейни "MOOD COFFEE"</h3>
+        <a href="https://yourcoffeesite.github.io" class="btn" target="_blank">Посмотреть</a>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>Связь: <a href="https://t.me/vladfreelancerr" target="_blank">@vladfreelancerr</a></p>
+  </footer>
+
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Контакты — Влад</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <h1>Контакты</h1>
+  </header>
+
+  <section>
+    <h2>Связаться со мной</h2>
+    <p>Пожалуйста, напишите мне через Telegram для связи или отправьте заявку!</p>
+    <a href="https://t.me/vladfreelancerr" class="btn" target="_blank">Написать в Telegram</a>
+  </section>
+
+  <footer>
+    <p>Связь: <a href="https://t.me/vladfreelancerr" target="_blank">@vladfreelancerr</a></p>
+  </footer>
+
+</body>
+</html>
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5;
+}
+
+header {
+  background-color: #111;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+}
+
+header p {
+  font-size: 1.2rem;
+}
+
+footer {
+  background-color: #111;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+
+footer a {
+  color: #d4af37;
+  text-decoration: none;
+}
+
+section {
+  padding: 40px;
+  text-align: center;
+}
+
+.projects {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.project {
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 200px;
+}
+
+.project img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.project h3 {
+  font-size: 1.1rem;
+}
+
+.btn {
+  display: inline-block;
+  background-color: #0077ff;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.btn:hover {
+  background-color: #005bb5;
+}
+
